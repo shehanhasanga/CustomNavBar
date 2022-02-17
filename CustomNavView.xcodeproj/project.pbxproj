@@ -11,6 +11,11 @@
 		BE863F5727BE30C800FDBD3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE863F5627BE30C800FDBD3F /* ContentView.swift */; };
 		BE863F5927BE30CA00FDBD3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE863F5827BE30CA00FDBD3F /* Assets.xcassets */; };
 		BE863F5C27BE30CA00FDBD3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE863F5B27BE30CA00FDBD3F /* Preview Assets.xcassets */; };
+		BE863F6327BE320600FDBD3F /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE863F6227BE320600FDBD3F /* CustomNavBar.swift */; };
+		BE863F6527BE352E00FDBD3F /* CustomNavBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE863F6427BE352E00FDBD3F /* CustomNavBarContainer.swift */; };
+		BE863F6727BE3E6B00FDBD3F /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE863F6627BE3E6B00FDBD3F /* CustomNavView.swift */; };
+		BE863F6927BE403900FDBD3F /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE863F6827BE403900FDBD3F /* CustomNavLink.swift */; };
+		BE863F6B27BE42B500FDBD3F /* NavBarPrefKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE863F6A27BE42B500FDBD3F /* NavBarPrefKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		BE863F5627BE30C800FDBD3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE863F5827BE30CA00FDBD3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE863F5B27BE30CA00FDBD3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE863F6227BE320600FDBD3F /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
+		BE863F6427BE352E00FDBD3F /* CustomNavBarContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainer.swift; sourceTree = "<group>"; };
+		BE863F6627BE3E6B00FDBD3F /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		BE863F6827BE403900FDBD3F /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		BE863F6A27BE42B500FDBD3F /* NavBarPrefKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarPrefKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 				BE863F5627BE30C800FDBD3F /* ContentView.swift */,
 				BE863F5827BE30CA00FDBD3F /* Assets.xcassets */,
 				BE863F5A27BE30CA00FDBD3F /* Preview Content */,
+				BE863F6227BE320600FDBD3F /* CustomNavBar.swift */,
+				BE863F6427BE352E00FDBD3F /* CustomNavBarContainer.swift */,
+				BE863F6627BE3E6B00FDBD3F /* CustomNavView.swift */,
+				BE863F6827BE403900FDBD3F /* CustomNavLink.swift */,
+				BE863F6A27BE42B500FDBD3F /* NavBarPrefKeys.swift */,
 			);
 			path = CustomNavView;
 			sourceTree = "<group>";
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE863F6327BE320600FDBD3F /* CustomNavBar.swift in Sources */,
 				BE863F5727BE30C800FDBD3F /* ContentView.swift in Sources */,
+				BE863F6727BE3E6B00FDBD3F /* CustomNavView.swift in Sources */,
+				BE863F6527BE352E00FDBD3F /* CustomNavBarContainer.swift in Sources */,
+				BE863F6B27BE42B500FDBD3F /* NavBarPrefKeys.swift in Sources */,
+				BE863F6927BE403900FDBD3F /* CustomNavLink.swift in Sources */,
 				BE863F5527BE30C800FDBD3F /* CustomNavViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
